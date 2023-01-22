@@ -239,8 +239,18 @@ img {
 /*-----SECTIONS-SOLUTIONS-----*/
 
 .section-solutions{
-    background-image: url("../images/peopleoffice.jpg");
-    background: var(--dark); 
+    background-image: linear-gradient( 
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), 
+        url(../images/peopleoffice.jpg);
+    background-color: var(--dark); 
+    background-repeat: no-repeat;
+    background-position: center ;
+background-size: cover;
+max-width: 100%;
+    
+    background-color: var(--dark); 
+    
     text-align:center;
     padding-top: 192px;
     padding-bottom: 192px;
@@ -252,7 +262,7 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--white);
-    background: var(--dark); 
+   /* background-color: var(--dark); */
     text-align: center;
     margin-bottom: 48px;
     min-width: 496px;
