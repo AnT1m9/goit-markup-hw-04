@@ -239,7 +239,7 @@ img {
 /*-----SECTIONS-SOLUTIONS-----*/
 
 .section-solutions{
-    background-image: url('./images/peopleoffice.jpg');
+    background-image: url("../images/peopleoffice.jpg");
     background: var(--dark); 
     text-align:center;
     padding-top: 192px;
