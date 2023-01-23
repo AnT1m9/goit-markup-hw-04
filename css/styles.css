@@ -438,12 +438,13 @@ top: 1671px;
 .card-icons-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
-}
+    gap: 24px;}
 
 .icons-soc-item {
     width: 40px;
     height: 40px;
+    background-color: var(--primary-brand);
+    border-radius: 50%;
 }
 /*
 .icons-soc-item:hover,
@@ -455,21 +456,16 @@ top: 1671px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    width: 100%;
+    height: 100%;
 }
 .card-soc-link:hover,
 .card-soc-link:focus{
     background-color: var(--primary-focus);
 }
 .card-soc-icon {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;;
-    background-color: var(--primary-brand);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: v;
+    width: 50%;
+    height: 50%;
 }
 
 
@@ -499,8 +495,10 @@ top: 1671px;
 .cust-link {
 }
 .cust-icons-item{
-background-color: tomato;
+background-color: none;
 width: 168px;
+border: 1px solid #8E8F99;
+border-radius: 4px;
 }
 .cust-pic{
     display: flex;
@@ -513,8 +511,9 @@ background-image: none;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
-background: rgb(231, 72, 85);
+background:transparent;
 border-radius: 4px;
+padding: 16px 32px;
 }
 /*
 .cust-icons-item {
