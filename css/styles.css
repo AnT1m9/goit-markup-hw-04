@@ -12,6 +12,7 @@
     --accent:#E7E9FC;
     --light:#F4F4FD;
     --white: #FFFFFF;
+    
 }
 
 p,
@@ -295,7 +296,7 @@ min-height: 600px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .effective-button:focus {
-    background: #404BBF;
+    background: #404BBF; 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .solutions-subtitle {   
@@ -418,7 +419,7 @@ top: 1671px;
 }
 .card-people{
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 36px;
     text-align: center;
 }
 .card-name {
@@ -448,7 +449,16 @@ top: 1671px;
     width: 40px;
     height: 40px;
 }
-.card-soc-link {
+
+.icons-soc-item:hover,
+.icons-soc-item:focus{
+    background-color: var(--primary-focus);
+    border-radius: 50%;
+}
+
+.card-soc-link { 
+}
+.card-soc-icon {
     width: 100%;
     height: 100%;
     background-color: var(--primary-brand);
@@ -456,9 +466,8 @@ top: 1671px;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
-
 
 /*---Customers---*/
 
@@ -477,6 +486,36 @@ top: 1671px;
     letter-spacing: 0.03em;
     color: var(--dark);
     margin-bottom: 72px;
+}
+.cust-icons-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.cust-icons-item {
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+border-radius: 4px;
+    }
+.cust-icons-item::before{
+    display: block;
+    content:'';
+    height: 88px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: #31D0AA;
+}
+
+.cust-pic {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+align-items: center;
 }
 
 /*-----PORTFOLIO-----*/
