@@ -549,7 +549,7 @@ top: 1671px;
     display: flex;
     justify-content: center;
     gap: 24px;
-    flex-basis: calc((100% - 24px) / 4 );
+    /*flex-basis: calc((100% - 24px) / 4 );*/
 }
 
 /*.cust-link:hover {
@@ -559,8 +559,9 @@ top: 1671px;
     fill: var(--primary-brand);
 }*/
 
+
 .cust-icons-item{
-/*background-color: none;*/
+background-color: none;
 width: 168px;
 border: 1px solid #8E8F99;
 border-radius: 4px;
@@ -569,6 +570,8 @@ fill: #8E8F99 ;
 .cust-link {
     fill: #8E8F99;
 }
+
+
 .cust-icons-item:hover {
     border-color: var(--primary-brand);
     fill: var(--primary-brand);
