@@ -595,15 +595,18 @@ background-position: center;
 background:transparent;
 
 }
-.cust-icons-item:hover {
+.cust-icons-item:hover,
+.cust-icons-item:focus {
     border-color: var(--primary-brand);
     fill: var(--primary-brand);
 }
-.cust-link:hover {
+.cust-link:hover
+.cust-link:focus {
     border-color: var(--primary-brand);
     fill: var(--primary-brand);
 }
-.cust-link:hover > .cust-pic{
+.cust-link:hover,
+.cust-link:focus > .cust-pic{
     border-color: var(--primary-brand);
     fill: var(--primary-brand);
 }
@@ -612,7 +615,8 @@ background:transparent;
     align-items: ;
 padding: 16px 32px;
 }
-.cust-pic:hover{
+.cust-pic:hover,
+.cust-pic:focus{
     fill: var(--primary-brand);
 }
 
